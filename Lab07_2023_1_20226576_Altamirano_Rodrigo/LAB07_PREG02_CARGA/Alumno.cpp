@@ -53,12 +53,23 @@ int Alumno::getCodigo() {
 }
 
 void Alumno::actulizarCantidades(const Nota& nota) {
-    int cantVecesCurso=ContarCurso(this->lNotas,nota.getCodigoCurso());
+    bool yaAprobado=false;
+    int cantVecesCurso=ContarCurso(this->lNotas,nota.getCodigoCurso(),yaAprobado);
     if (cantVecesCurso==0) this->numCursos++;
     if (nota.getNota()>=11) {
         this->numAprobados++;
         if (cantVecesCurso==0) this->numPrimera++;
         else if (cantVecesCurso==1) this->numSegunda++;
         else this->numTercera++;
+    }
+    if (yaAprobado) {
+        if (cantVecesCurso==1) {
+            this->numSegunda++;
+            this->numPrimera--;
+        }
+        else {
+            this->numTercera++;
+            this->numSegunda--;
+        }
     }
 }

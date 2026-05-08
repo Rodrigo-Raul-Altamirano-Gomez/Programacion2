@@ -18,11 +18,14 @@ char* CopiarCadenaExacta(const char* cadena) {
     return cadenaExacta;
 }
 
-int ContarCurso(const Nota* arrNotasAlumno,const char* codCurso) {
+int ContarCurso(const Nota* arrNotasAlumno,const char* codCurso,bool& yaAprobado) {
     int cantVeces=0;
     for (int i=0;i<20;i++) {
         if (arrNotasAlumno[i].getCiclo()==0) break;
-        if (strcmp(arrNotasAlumno[i].getCodigoCurso(),codCurso)==0) cantVeces++;
+        if (strcmp(arrNotasAlumno[i].getCodigoCurso(),codCurso)==0) {
+            if (arrNotasAlumno[i].getNota()>=11) yaAprobado=true;
+            cantVeces++;
+        }
     }
     return cantVeces;
 }

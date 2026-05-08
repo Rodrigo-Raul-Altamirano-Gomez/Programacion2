@@ -11,6 +11,6 @@ using namespace std;
 
 char* LeerCadenaExacta(ifstream&);
 char* CopiarCadenaExacta(const char*);
-int ContarCurso(const Nota*,const char*);
+int ContarCurso(const Nota*,const char*,bool&);
 
 #endif //LAB07_PREG01_CLASES_FUNCIONESAUXLIARES_H
