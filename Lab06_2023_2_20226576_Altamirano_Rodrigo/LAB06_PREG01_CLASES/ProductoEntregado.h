@@ -1,0 +1,13 @@
+//
+// Created by hrodic on 7/05/2026.
+//
+
+#ifndef LAB06_PREG01_CLASES_PRODUCTOENTREGADO_H
+#define LAB06_PREG01_CLASES_PRODUCTOENTREGADO_H
+
+
+class ProductoEntregado {
+};
+
+
+#endif //LAB06_PREG01_CLASES_PRODUCTOENTREGADO_H
