@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="LAB02_PREG02_ALUMNO" targetName="LAB02_PREG02_ALUMNO" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2560344-9e3f-4370-99f0-b53ebd4990ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Acurso.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acurso.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alumno.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alumno.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB02_PREG02_CARGA/Acurso.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB02_PREG02_CARGA/Acurso.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB02_PREG02_CARGA/Alumno.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB02_PREG02_CARGA/Alumno.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB02_PREG02_CARGA/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB02_PREG02_CARGA/Curso.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB02_PREG02_CARGA/Curso.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB02_PREG02_CARGA/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Almacen.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Almacen.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Cliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Cliente.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Cliente.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Cliente.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/FuncionesAuxiliares.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/FuncionesAuxiliares.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/FuncionesAuxiliares.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/FuncionesAuxiliares.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Pedido.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Pedido.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Pedido.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Pedido.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Producto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Producto.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Producto.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Producto.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/ProductoEntregado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/ProductoEntregado.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/ProductoEntregado.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2023_2_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/ProductoEntregado.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Espacio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Espacio.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Espacio.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Espacio.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Estante.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Estante.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Estante.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Estante.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Libro.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Libro.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Libro.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/Libro.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab06_2024_1_20226576_Altamirano_Rodrigo/LAB06_PREG01_CLASES/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Conductor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Conductor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Conductor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Conductor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Falta.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Falta.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Falta.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Falta.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/FaltaCond.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/FaltaCond.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/FaltaCond.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/FaltaCond.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Infraccion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Infraccion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Infraccion.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Infraccion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Libro.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Libro.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Libro.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Libro.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/LibroPrestado.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/LibroPrestado.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/LibroPrestado.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/LibroPrestado.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Usuario.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Usuario.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Usuario.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2021_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Usuario.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Cliente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Cliente.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Pedido.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Pedido.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Pedido.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_1_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Pedido.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Cita.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Cita.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Cita.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Cita.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Medico.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Medico.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Medico.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Medico.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Paciente.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Paciente.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Paciente.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG01_CLASES/Paciente.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG02_CARGA/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab07_2022_2_20226576_Altamirano_Rodrigo/LAB07_PREG02_CARGA/.idea/material_theme_project_new.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="xsorzPQ3" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="1.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3DYAUSwrJRlb81K8KXpMcetFSZq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.LAB02_PREG02_ALUMNO.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/hrodic/OneDrive/Documentos/Programacion_2/Programacion2/Lab07_2020_1_20226576_Altamirano_Rodrigo/LAB02_PREG02_ALUMNO/cmake-build-debug",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hrodic\OneDrive\Documentos\Programacion_2\Programacion2\Lab07_2020_1_20226576_Altamirano_Rodrigo\LAB02_PREG02_ALUMNO\cmake-build-debug" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LAB02_PREG02_ALUMNO" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LAB02_PREG02_ALUMNO" TARGET_NAME="LAB02_PREG02_ALUMNO" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LAB02_PREG02_ALUMNO" RUN_TARGET_NAME="LAB02_PREG02_ALUMNO">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2560344-9e3f-4370-99f0-b53ebd4990ad" name="Changes" comment="" />
+      <created>1778448644565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778448644565</updated>
+      <workItem from="1778448645771" duration="8925000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+</project>
