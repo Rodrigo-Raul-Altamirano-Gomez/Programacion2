@@ -23,9 +23,10 @@ public:
     int getDni() const;
     int getFecha() const;
     int getCodigo() const;
-    //~Pedido();
+    ~Pedido();
     void setPrecio(double);
     void imprimirPedido(ofstream&) const;
+    Pedido();
 };
 
 

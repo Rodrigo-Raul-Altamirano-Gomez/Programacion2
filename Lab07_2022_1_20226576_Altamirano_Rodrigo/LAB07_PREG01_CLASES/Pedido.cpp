@@ -19,6 +19,7 @@ ifstream &operator>>(ifstream &archPedidos, Pedido &pedido) {
 }
 
 void Pedido::setNombre(const char *nombre) {
+    delete[] this->nombre;
     this->nombre=new char[strlen(nombre)+1];
     strcpy(this->nombre,nombre);
 }
@@ -51,9 +52,10 @@ int Pedido::getCodigo() const {
     return this->codigo;
 }
 
-// Pedido::~Pedido() {
-//     delete[] this->nombre;
-// }
+Pedido::~Pedido() {
+    delete[] this->nombre;
+    this->nombre=nullptr;
+}
 
 void Pedido::setPrecio(double precio) {
     this->precio=precio;
@@ -68,4 +70,8 @@ void Pedido::imprimirPedido(ofstream &archReporte) const {
     archReporte<<right<<setfill('0')<<setw(2)<<dia<<'/'<<setw(2)<<mes<<'/'<<anio<<setfill(' ');
     archReporte<<setw(10)<<this->codigo<<setw(3)<<" "<<left<<setw(40)<<this->nombre;
     archReporte<<right<<setw(5)<<this->cantidad<<setw(8)<<this->precio<<endl;
+}
+
+Pedido::Pedido() {
+    this->nombre=nullptr;
 }

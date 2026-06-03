@@ -7,6 +7,10 @@
 
 
 class Infraccion {
+    int codigo;
+    char* descripcion;
+    char* gravedad;
+    double multa;
 };
 
 

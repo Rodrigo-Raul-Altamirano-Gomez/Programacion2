@@ -5,6 +5,8 @@
 #ifndef LAB06_PREG01_CLASES_ESPACIO_H
 #define LAB06_PREG01_CLASES_ESPACIO_H
 
+#include <fstream>
+using namespace std;
 
 class Espacio {
     char contenido;
@@ -12,9 +14,10 @@ class Espacio {
     int posy;
 public:
     void setPosiciones(int,int);
-    void setOcupado(bool);
-    bool getContenido();
+    void setOcupado(char);
+    char getContenido() const;
 };
 
+ofstream& operator<<(ofstream&,const Espacio&);
 
 #endif //LAB06_PREG01_CLASES_ESPACIO_H

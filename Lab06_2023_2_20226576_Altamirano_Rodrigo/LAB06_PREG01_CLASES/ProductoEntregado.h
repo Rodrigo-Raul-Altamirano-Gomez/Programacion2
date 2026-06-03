@@ -7,6 +7,12 @@
 
 
 class ProductoEntregado {
+    char* codigo;
+    double precio;
+public:
+    void setCodigo(const char*);
+    void setPrecio(double);
+    const char* getCodigo();
 };
 
 

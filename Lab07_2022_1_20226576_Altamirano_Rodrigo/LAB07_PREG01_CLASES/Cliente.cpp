@@ -33,10 +33,9 @@ void Cliente::operator-=(const Pedido &pedido) {
     int posPedido=this->encontrarPedido(pedido);
     if (posPedido>=0) {
         for (int i=posPedido;i<this->numped-1;i++) {
-            //this->lped[i].~Pedido();
             this->lped[i]=this->lped[i+1];
         }
-        //this->lped[this->numped-1].~Pedido();
+        this->lped[this->numped-1].~Pedido();
         this->numped--;
         this->total-=pedido.getPrecio();
     }

@@ -2,9 +2,8 @@
 // Created by hrodic on 8/05/2026.
 //
 #include <cstring>
-#include <fstream>
+#include <iomanip>
 #include "Libro.h"
-using namespace std;
 
 void Libro::setDatosLibro(const char * codigo,const char * nombre,int ancho,int alto) {
     this->codigo=new char[strlen(codigo)+1];
@@ -39,4 +38,18 @@ int Libro::getAncho() const{
 
 int Libro::getAlto() const{
     return this->alto;
+}
+
+const char *Libro::getCodigo() const {
+    return this->codigo;
+}
+
+const char *Libro::getNombre() const {
+    return this->nombre;
+}
+
+ofstream& operator<<(ofstream& archReporte,const Libro& libro) {
+    archReporte<<left<<setw(9)<<libro.getCodigo()<<setw(25)<<libro.getNombre();
+    archReporte<<right<<setw(5)<<libro.getAncho()<<setw(7)<<libro.getAlto()<<endl;
+    return archReporte;
 }

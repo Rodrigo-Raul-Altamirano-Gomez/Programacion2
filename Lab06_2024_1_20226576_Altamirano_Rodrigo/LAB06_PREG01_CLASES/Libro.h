@@ -5,6 +5,8 @@
 #ifndef LAB06_PREG01_CLASES_LIBRO_H
 #define LAB06_PREG01_CLASES_LIBRO_H
 
+#include <fstream>
+using namespace std;
 
 class Libro {
     char* codigo;
@@ -17,7 +19,11 @@ public:
     void setEstado(bool);
     int getAncho() const;
     int getAlto() const;
+    const char* getCodigo() const;
+    const char* getNombre() const;
 };
 
+ifstream& operator>>(ifstream&,Libro&);
+ofstream& operator<<(ofstream&,const Libro&);
 
 #endif //LAB06_PREG01_CLASES_LIBRO_H

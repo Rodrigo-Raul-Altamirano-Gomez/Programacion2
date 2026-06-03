@@ -7,6 +7,9 @@
 
 
 class Empresa {
+    int dni;
+    char* nombre;
+    char* 
 };
 
 

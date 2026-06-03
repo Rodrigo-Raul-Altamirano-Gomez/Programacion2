@@ -3,3 +3,43 @@
 //
 
 #include "Acurso.h"
+
+const Curso Acurso::getCurso() const {
+    return this->clcurso;
+}
+
+int Acurso::buscarCurso(const Curso *arrCursos,int numCursos) const {
+    for (int i=0;i<numCursos;i++) {
+        if (arrCursos[i]==this->clcurso) return i;
+    }
+    return -1;
+}
+
+ifstream& operator>>(ifstream& archACursos,Acurso& cursoAlumno) {
+    int codigoAlumno,nota,anio,semestre,ciclo;
+    if (archACursos>>codigoAlumno) {
+        char codigoCurso[20],operacion,car;
+        double creditos;
+        archACursos>>codigoCurso>>nota>>anio>>car>>semestre>>creditos>>operacion;
+        ciclo=semestre+anio*10;
+        cursoAlumno.setCodigo(codigoAlumno);
+        cursoAlumno.setCurso(codigoCurso,nota,ciclo,creditos);
+        cursoAlumno.setOperacion(operacion);
+    }
+    return archACursos;
+}
+
+void Acurso::setCodigo(int codigo) {
+    this->codigo=codigo;
+}
+
+void Acurso::setCurso(const char *codigo, int nota, int ciclo, double creditos) {
+    this->clcurso.setCodigo(codigo);
+    this->clcurso.setCiclo(ciclo);
+    this->clcurso.setNota(nota);
+    this->clcurso.setCreditos(creditos);
+}
+
+void Acurso::setOperacion(char operacion) {
+    this->operacion=operacion;
+}

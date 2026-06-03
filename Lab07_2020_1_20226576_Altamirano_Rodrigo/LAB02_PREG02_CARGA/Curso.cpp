@@ -37,7 +37,7 @@ bool Curso::compare(const Curso &curso) const {
 }
 
 bool Curso::operator==(const Curso &curso) const {
-    if (this->ccurso==curso.ccurso and this->ciclo==curso.ciclo) return true;
+    if (strcmp(this->ccurso,curso.ccurso)==0 and this->ciclo==curso.ciclo) return true;
     else return false;
 }
 

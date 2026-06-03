@@ -40,7 +40,7 @@ Alumno &Alumno::operator-(const Acurso &cursoAlumno) {
         for (int i=posCurso;i<this->numcur-1;i++) {
             this->lcurso[i]=this->lcurso[i+1];
         }
-        delete &(this->lcurso[this->numcur-1]);
+        this->lcurso[numcur-1].~Curso();
         this->numcur--;
     }
     return *this;

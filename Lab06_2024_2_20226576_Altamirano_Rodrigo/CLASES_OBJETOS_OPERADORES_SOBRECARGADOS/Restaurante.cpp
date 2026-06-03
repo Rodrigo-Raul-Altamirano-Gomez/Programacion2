@@ -106,6 +106,19 @@ void Restaurante::actualizarAtributos(int posCliente,int posPlato,int cantPlatoP
     else plato.incrementarNoAntendidos(cantPlatoPedido);
 }
 
+void colocarCuarentena(int temperatura,Pila& pila,Nodo* nuevoNodo) {
+    Nodo* nodoExtraido;
+    if (temperatura<pila.elemento.temperatura) {
+        apilar(pila,nuevoNodo);
+        return;
+    }
+    else {
+        nodoExtraido=desapapilar(pila);
+        colocarCuarentena(temperatura,pila,nuevoNodo);
+    }
+    apilar(pila,nodoExtraido);
+}
+
 const Restaurante &Restaurante::operator>>(const char* nombreArchReporte) const {
     ofstream archReporte(nombreArchReporte,ios::out);
     imprimirEncabezado(archReporte);

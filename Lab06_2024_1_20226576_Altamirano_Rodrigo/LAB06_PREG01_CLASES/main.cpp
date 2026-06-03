@@ -1,6 +1,14 @@
-#include <iostream>
+#include "Estante.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    ifstream archLibros("libros.csv",ios::in);
+    ifstream archEstantes("estantes.csv",ios::in);
+    ofstream archReportePrubea("reportePrueba.txt",ios::out);
+    Libro libro;
+    Estante estante;
+    archLibros>>libro;
+    archEstantes>>estante;
+    estante+=libro;
+    archReportePrubea<<estante;
     return 0;
 }
