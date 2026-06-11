@@ -46,7 +46,7 @@ void Biblioteca::cargar_estantes() {
 }
 
 void Biblioteca::posicionar_libros() {
-    this->posicionarEnciclopedias();
+        this->posicionarEnciclopedias();
     this->posicionarNovelas();
 }
 

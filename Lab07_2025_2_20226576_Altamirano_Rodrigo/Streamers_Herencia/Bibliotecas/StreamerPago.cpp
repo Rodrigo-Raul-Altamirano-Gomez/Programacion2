@@ -154,7 +154,7 @@ void StreamerPago::obtener_metricas_calidad_general(int &bitrate_prom, double &d
         bitrate_prom+=this->metricas_calidades[i].getBitratePromedio();
         drop_prom+=this->metricas_calidades[i].getPorcentajePerdidaFrames();
         fps_prom+=this->metricas_calidades[i].getFpsPormedio();
-        if (this->metricas_engagements[i].getEstado()) activas++;
+        if (this->metricas_calidades[i].getEstado()) activas++;
         else expiradas++;
     }
     if (bitrate_prom>0) bitrate_prom/=this->cantidad_metricas_calidades;
@@ -198,6 +198,6 @@ ofstream& operator<<(ofstream& archReporte,const StreamerPago& streamer_pago) {
 
 StreamerPago::~StreamerPago() {
     delete[] this->metricas_basicas;
-    delete[] this->metricas_basicas;
-    delete[] this->metricas_basicas;
+    delete[] this->metricas_engagements;
+    delete[] this->metricas_calidades;
 }
