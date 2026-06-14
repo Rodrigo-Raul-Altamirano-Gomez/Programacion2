@@ -3,3 +3,34 @@
 //
 
 #include "Alumno.h"
+
+#include <cstring>
+#include <iomanip>
+
+Alumno::Alumno() {
+    this->nombre=nullptr;
+    this->total=0;
+}
+
+void Alumno::setNombre(const char *nombre) {
+    delete[] this->nombre;
+    this->nombre=new char[strlen(nombre)+1];
+    strcpy(this->nombre,nombre);
+}
+
+void Alumno::lee(ifstream &archAlumnos) {
+    char car,nombre[75];
+    archAlumnos>>this->codigo>>car;
+    archAlumnos.getline(nombre,75,',');
+    this->setNombre(nombre);
+    archAlumnos>>this->escala>>car>>this->creditos>>car;
+}
+
+void Alumno::imprime(ofstream &archReporte) const {
+    archReporte<<right<<setw(9)<<this->codigo<<setw(3)<<" "<<left<<setw(45)<<this->nombre<<right;
+    archReporte<<setw(5)<<this->escala<<setw(12)<<this->creditos;
+}
+
+Alumno::~Alumno() {
+    delete[] this->nombre;
+}

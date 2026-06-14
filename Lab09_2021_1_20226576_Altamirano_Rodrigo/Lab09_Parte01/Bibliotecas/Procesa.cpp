@@ -25,7 +25,6 @@ void Procesa::leer() {
 void Procesa::imprimir() const {
     ofstream archReportePrueba("ArchivosDeReporte/ReportePrueba.txt",ios::out);
     archReportePrueba<<fixed<<setprecision(2);
-    archReportePrueba<<
     for (int i=0;i<this->cantidad;i++) {
         this->lregistro[i].
     }

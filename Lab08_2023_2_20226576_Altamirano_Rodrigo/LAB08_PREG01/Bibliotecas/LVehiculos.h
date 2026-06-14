@@ -4,9 +4,17 @@
 
 #ifndef LAB08_PREG01_LVEHICULOS_H
 #define LAB08_PREG01_LVEHICULOS_H
-
+#include "Vehiculo.h"
+#include "NodoLista.h"
 
 class LVehiculos {
+    NodoLista* lini;
+    NodoLista* lfin;
+public:
+    LVehiculos();
+    void agregarVehiculo(Vehiculo*);
+    void imprimir(ofstream&) const;
+    ~LVehiculos();
 };
 
 

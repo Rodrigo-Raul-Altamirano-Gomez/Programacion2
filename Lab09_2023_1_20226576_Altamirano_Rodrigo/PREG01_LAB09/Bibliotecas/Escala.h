@@ -7,6 +7,12 @@
 
 
 class Escala {
+    int codigo;
+    double precio;
+public:
+    Escala();
+    void setCodigo(int);
+    void setPrecio(double);
 };
 
 

@@ -4,9 +4,15 @@
 
 #ifndef LAB08_PREG01_CAMION_H
 #define LAB08_PREG01_CAMION_H
+#include "Vehiculo.h"
 
 
-class Camion {
+class Camion : public Vehiculo {
+    int ejes;
+    int llantas;
+public:
+    void leer(ifstream &) override;
+    void imprimir(ofstream &) const override;
 };
 
 

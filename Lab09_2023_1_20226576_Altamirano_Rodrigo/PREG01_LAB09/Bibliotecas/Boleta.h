@@ -5,8 +5,18 @@
 #ifndef PREG01_LAB09_BOLETA_H
 #define PREG01_LAB09_BOLETA_H
 
+#include <fstream>
+#include "Alumno.h"
+using namespace std;
 
 class Boleta {
+    Alumno* pboleta;
+public:
+    Boleta();
+    bool existe() const;
+    void leer(ifstream&,int);
+    void imprimir(ofstream&) const;
+    ~Boleta();
 };
 
 

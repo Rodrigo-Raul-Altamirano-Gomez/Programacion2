@@ -5,12 +5,17 @@
 #ifndef PREG01_LAB09_SEMIPRESENCIAL_H
 #define PREG01_LAB09_SEMIPRESENCIAL_H
 
+#include "Alumno.h"
 
-
-class Semipresencial {
-
+class Semipresencial : public Alumno {
+    double descuento;
+    double total;
+public:
+    Semipresencial();
+    void lee(ifstream&) override;
+    void imprime(ofstream &) const override;
+    ~Semipresencial() override = default;
 };
-
 
 
 #endif //PREG01_LAB09_SEMIPRESENCIAL_H
