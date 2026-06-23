@@ -3,10 +3,8 @@
 //
 
 #include "Central.h"
-
 #include <cstring>
 #include <iomanip>
-
 #include "DroneEstacionamiento.h"
 #include "DroneSemaforo.h"
 #include "DroneVelocidad.h"
