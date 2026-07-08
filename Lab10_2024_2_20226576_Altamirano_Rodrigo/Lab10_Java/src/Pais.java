@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author erichuiza
+ */
+class Pais extends Registro {
+    private String nombre;
+    private String moneda;
+    private double tipoCambio;
+    private String idioma;
+
+    public Pais() {
+        this.tipoCambio=0;
+    }
+
+    public Pais(String nombre,String moneda, double tipoCambio, String idioma) {
+        this.nombre=nombre;
+        this.moneda=moneda;
+        this.tipoCambio=tipoCambio;
+        this.idioma=idioma;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getMoneda() {
+        return moneda;
+    }
+
+    public double getTipoCambio() {
+        return tipoCambio;
+    }
+
+    public String getIdioma() {
+        return idioma;
+    }
+    
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setMoneda(String codigoMoneda) {
+        this.moneda = codigoMoneda;
+    }
+
+    public void setTipoCambio(double tipoCambio) {
+        this.tipoCambio = tipoCambio;
+    }
+
+    public void setIdioma(String codigoIdioma) {
+        this.idioma = codigoIdioma;
+    }
+    
+    @Override
+    public void cargar(Scanner archivo) {
+        nombre = archivo.next();
+        moneda = archivo.next();
+        tipoCambio = archivo.nextDouble();
+        idioma = archivo.next();
+    }
+
+    @Override
+    public void imprimir() {
+        System.out.println(String.format("%-15s\t%-10s\t%10.2f\t%-10s", nombre, moneda, tipoCambio, idioma));
+    }
+}
